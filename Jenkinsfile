@@ -32,7 +32,7 @@
     }
   }
 
-  node("docker-stage") {
+  node("docker-test") {
     checkout scm
 
     stage("Staging") {
